@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <title></title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <title>Passenger Counter</title>
 </head>
 <body>
-  <h1>People entered:</h1>
-  <input type="number" id="num1" name="num1">
-  <button id="add-btn" onclick="add()">ADD</button>
-  <h2 id="num2" name="num2">0</h2>
+  <div class="main-div">
+    <h1>Passenger Counter</h1>
+    <h2>People entered:</h2>
+    <input class="form-control input-small" type="number" id="num1" name="num1">
+    <button class="btn btn-light btn-new" id="add-btn" onclick="add()">ADD</button>
+    <h1 id="num2" name="num2">0</h2>
+  </div>  
 <script src="index.js"></script>
 </body>
 </html>

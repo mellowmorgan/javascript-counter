@@ -1,7 +1,6 @@
-var count=0
-let countEl = document.getElementById("num2")
+let countResult=0;
 function add(){
-  var countE = document.getElementById("num1").value
-  count+=parseInt(countE)
-  countEl.textContent=count
+  let countInput = parseInt(document.getElementById("num1").value);
+  countResult+=countInput;
+  document.getElementById("num2").textContent = countResult;
 }
