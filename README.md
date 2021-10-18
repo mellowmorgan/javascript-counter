@@ -6,9 +6,12 @@ Simple webpage counts passengers with add button.
 HTML, CSS, Bootstrap, Javascript!
 
 ## Setup Instructions
-* 1. Clone repository.
-* 2. Go to top-level directory.
-* 3. Open index.html from terminal.
+* Clone repository.
+* Go to top-level directory.
+* Open index.html from terminal.
+
+## GitHub Page
+https://mellowmorgan.github.io/javascript-counter/
 
 ## Known Bugs
 No known bugs.
